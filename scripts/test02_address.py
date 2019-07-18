@@ -31,7 +31,7 @@ class TestAddress:
     # 初始化
     @allure.step(title="正在初始化 setup_class")
     def setup_class(self):
-        # 获取PageLogin 并 调用 登录方法
+        # 获取PageLogin 并 调用  登录方法
         PageIn().page_get_PageLogin().page_login_address()
         # 获取PageAddress对象
         self.address = PageIn().page_get_PageAddress()
